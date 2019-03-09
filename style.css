@@ -14,22 +14,38 @@ header{
     width: 100%;
     background-image: url("cherryblossoms.jpg");
     background-size: cover;
-    text-align: left;
-    font-family: "Special Elite", cursive;
-    font-style: ;
+    text-align: center;
+    font-family: "Acme", cursive;
+
+}
+.bg-image{ 
+filter: blur(8px);
+    
 }
 
 header p{ 
     font-style: italic;
-    font-style: bold;
+  
 }
 
-.container{ 
-    background-color: lightgrey;
-    opacity: 0.6;
+body{ 
+    color: #;
+}
+.aboutus{
+    text-align:center;
 }
 
-h1{ 
-    opacity: 1;
-    
+.aboutus i{
+    font-size: 30px;
+    Padding: 25px 20px;
+    color: #fff;
+    background-color: #ff0066;
+   width: 80px;
+   height: 80px;
+    border-radius: 50%;
+}
+
+.aboutus span{
+    width: 20px
+    display: inline-block;
 }
